@@ -1,0 +1,17 @@
+export(dsblnorm)
+export(dsbgamma)
+export(dsbweibull)
+export(hmean)
+export(make_newdata)
+export(sbm)
+S3method(AIC, sbm)
+S3method(hist, sbm)
+S3method(predict, sbm)
+S3method(summary, sbm)
+S3method(print, sbm)
+importFrom(dplyr,"%>%")
+importFrom(utils, "tail")
+importFrom(graphics, "hist", "lines")
+importFrom(stats, "as.formula", "dgamma", "dlnorm", "dweibull",
+           "formula", "model.frame", "model.matrix", "model.response",
+           "na.omit", "predict", "pt", "quantile", "sd", "var")
